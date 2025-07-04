@@ -3,6 +3,7 @@
     "name": "PrepPal",
     "slug": "PrepPal",
     "version": "1.0.0",
+    
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "preppal",
@@ -16,7 +17,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.omarashraf.PrepPal"
     },
     "web": {
       "bundler": "metro",
@@ -36,7 +38,8 @@
       ]
     ],
     "experiments": {
-      "typedRoutes": true
+      "typedRoutes": true,
+      "tsconfigPaths": true
     }
   }
 }
